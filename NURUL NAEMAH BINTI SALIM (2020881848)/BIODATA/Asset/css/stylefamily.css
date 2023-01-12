@@ -1,0 +1,132 @@
+body {
+  font-family: "Arial", sans-serif;
+ margin: 0;
+ padding:0;
+ background-color:#D7D7D5;
+background: url("image/2.jpg");
+}
+
+
+h1{
+text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  float:left;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+ padding:10;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 2pz:none;
+  border-top: none;
+}
+
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {
+color: white;
+}
+
+.details{
+text-align:right;
+position: absolute;
+right:60;
+top:200;
+font-size:15pt;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #D7D7D5;
+  color: #6A879B;
+}
+
+.block{
+background-color:#1C1C1D;
+}
+
+p{
+text-align:left;
+padding:0;
+}
+
+.up{
+text-align:right;
+padding:5px;
+}
+
+#clock {
+font-size: 20px;
+text-align:left;
+padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
